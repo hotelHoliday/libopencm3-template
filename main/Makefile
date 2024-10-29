@@ -1,8 +1,8 @@
-PROJECT = awesomesauce
+PROJECT = template
 BUILD_DIR = bin
 
-SHARED_DIR = ../my-common-code
-CFILES = my-project.c
+SHARED_DIR = ../common
+CFILES = main.c
 CFILES += api.c
 AFILES += api-asm.S
 
